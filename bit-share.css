@@ -1,0 +1,103 @@
+html {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #FFBDB4;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+button, input {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: #fdfdfd;
+    padding: 2%;
+    height: 92%;
+    box-shadow: 0 0 40px 30px #B4FFD8;
+    overflow-y: scroll;
+}
+
+/* navigation */
+#logo{
+    height: 7em;
+    width: 7em;
+    margin-right: 60%;
+}
+#header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* de share */
+.inhoud{
+    display: flex;
+    justify-content: start;
+}
+
+.post{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: #B4FFD8;
+    border-radius: 20px;
+    background-color: rgb(236, 237, 238);
+    padding: 3%;
+}
+
+
+#foto {
+    margin-right: 5%;
+    height: 12em;
+    width: 12em;
+}
+
+/* buttons */
+button, #submit {
+    color: #000563;
+    font-weight: bold;
+    height: 4em;
+    width: 15em;
+    margin-top: 10%;
+    border-radius: 40em;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #fbd1cb;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+button:hover, #submit:hover {
+    transition: 1s ease-in-out;
+    background: #FFBDB4;
+}
+
+label {
+    font-size: x-large;
+} 
+textarea, #titel {
+    border: 2px solid #B4FFD8;
+    border-radius: 1em;
+    padding: 1em;
+}
+textarea:focus, #titel:focus {
+    outline: none!important;
+    border: 2px solid #FFBDB4;
+}
+
+
+/* share page nav */
+#header-share{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+#share-p-title{
+    margin-top: 3%;
+}
